@@ -1,4 +1,4 @@
-.wrapper {
++.wrapper {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -24,12 +24,16 @@
     flex: center;
 }
 .box{
-width: 20px;
-height: 20px;
-background: url("boarvessaloriginal.jpg");
-background-size: 100%;
-margin: 5px;
-padding: 15px;
-border-radius: 15px;
-border: 2px solid black;
+    width: 20px;
+    height: 20px;
+    background:rgb( 34 465 200);
+    background: url("boarvessaloriginal.jpg");
+    background-size: 100%;
+    margin: 5px;
+    padding: 15px;
+    border-radius: 15px;
+}
+.white {
+    color: white;
+    text-align: left;
 }
