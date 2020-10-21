@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+
+
+<body>
+<div class="tenor-gif-embed" data-postid="15629764" data-share-method="host" data-width="100%" data-aspect-ratio="1.0"><a href="https://tenor.com/view/fred-mopping-floor-fish-sponge-bob-mop-gif-15629764">Fred Mopping Floor GIF</a> from <a href="https://tenor.com/search/fred-gifs">Fred GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+
+<div class="w3-container">
+  <div class="w3-light-grey">
+    <div id="myBar" class="w3-container w3-green" style="height:24px;width:0%">
+    </div>
+  </div>
+
+  <p id="myP">Deleted <span id="demo">0</span> of ∞ searches</p>
+
+  <button class="w3-button w3-light-grey" onclick="move();this.disabled='true'">Clean Up Search History</button> 
+</div>
+
+<script>
+function move() {
+  var elem = document.getElementById("myBar");   
+  var width = 0;
+  var id = setInterval(frame, 50);
+  function frame() {
+    if (width >= 100) {
+      clearInterval(id);
+      document.getElementById("myP").className = "w3-text-red w3-animate-opacity";
+      document.getElementById("myP").innerHTML = "ERROR!";
+    } else {
+      width++; 
+      elem.style.width = width + '%'; 
+      var num = width * 1 / 10;
+      num = num.toFixed(0)
+      document.getElementById("demo").innerHTML = num;
+    }
+  }
+}
+</script>
+
+</body>
+</html>
