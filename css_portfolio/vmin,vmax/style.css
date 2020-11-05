@@ -1,0 +1,14 @@
+.vmin {
+    background: orangered;
+    width: 60vmin;
+    height: 40vmin;
+    
+    font-size: 96px;
+}
+.vmax {
+    background:blueviolet;
+    width: 60vmax;
+    height: 40vmax;
+    
+    font-size: 69px;
+}

@@ -1,0 +1,20 @@
+.gallery{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+a {
+    background-size: cover;
+    width: 40vmin;
+    height: 40vmin;
+    margin:10px;
+    font-size: clamp(10px,8vmin,32px);
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:red;

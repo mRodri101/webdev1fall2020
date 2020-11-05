@@ -1,0 +1,15 @@
+.serif {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .sansserif {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .monospace {
+    font-family: "Lucida Console", Courier, monospace;
+  }
+
+  html {
+      font-family: "Sansita Swashed";
+  }

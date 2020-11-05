@@ -1,0 +1,26 @@
+
+a:link {
+    color: #FF0000;
+  }
+  
+  
+  a:visited {
+    color: #00FF00;
+  }
+  
+ 
+  a.highlight:hover {
+    color: #ff0000;
+  }
+  
+  
+  a:active {
+    color: #0000FF;
+  }
+  div {
+      color: white;
+  }
+  div:hover {
+      color:white;
+    background-color:black;
+  }
