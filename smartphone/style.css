@@ -1,4 +1,4 @@
-+.wrapper {
+.wrapper {
     position: fixed;
     top: 50%;
     left: 50%;
@@ -36,4 +36,13 @@
 .white {
     color: white;
     text-align: left;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 13vh;
+    color: white;
+    text-decoration: none;
 }

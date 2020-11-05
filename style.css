@@ -4,18 +4,36 @@
     justify-content: center;
 }
 
+body {
+    outline: 5px solid black;
 
+}
 
 a {
-    background-size: cover;
+    background-color: black;
     width: 40vmin;
     height: 40vmin;
-    margin:10px;
+    margin:15px;
+
+    font-family: Heebo;
     font-size: clamp(10px,8vmin,32px);
     font-weight: 500;
     text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    color:red;
+    color: white;
+}
+
+.header1 {
+    background-color: black;
+    color: white;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Heebo;
+    font-size: clamp(0,8vmin,32px);
+
 }
