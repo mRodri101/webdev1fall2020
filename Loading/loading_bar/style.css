@@ -1,6 +1,30 @@
-.center {
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    height: 50vh;
 }
+.loading-bar {
+	display: flex;
+	height: 10px;
+	width: 100%;		max-width: 320px;
+	box-shadow: inset 0px 0px 0px 1px #C8C8CD;
+	border-radius: 50px;
+	overflow: hidden;
+    }
+@keyframes progress-animation {
+	0% {width: 0%;}
+	20% {width: 10%;}
+	40% {width: 30%;}
+	50% {width: 60%;}
+    100% {width: 100%;}
+     }
+
+.progress-bar {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	background: #409be9;
+	animation: progress-animation 5s ease-in-out;
+}
+
